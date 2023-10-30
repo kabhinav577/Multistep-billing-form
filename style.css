@@ -324,7 +324,7 @@ input:focus {
   height: 1.8rem;
   border-radius: 0.4rem;
   border: 1px solid hsl(var(--clr-cool-grey));
-  background-image: url(assets/icon-checkmark.svg);
+  background-image: url(assets/svg/icon-checkmark.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: transparent;
@@ -411,7 +411,7 @@ main {
 .step-paging-sec {
   min-height: 17rem;
 
-  background-image: url(assets/bg-sidebar-mobile.svg);
+  background-image: url(assets/svg/bg-sidebar-mobile.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -626,7 +626,7 @@ main {
     height: calc(100vh - (var(--margin) * 2));
     overflow: hidden;
     border-radius: 1rem;
-    background-image: url(assets/bg-sidebar-desktop.svg);
+    background-image: url(assets/svg/bg-sidebar-desktop.svg);
     flex-direction: column;
     justify-content: start;
     min-width: var(--width);
