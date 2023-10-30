@@ -584,7 +584,7 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: calc(100vh - 12rem);
+  height: calc(100vh - 20rem);
 }
 
 .thank-you-box > * {
@@ -612,18 +612,24 @@ main {
 @media (min-width: 769px) {
   body {
     height: 100vh;
+    width: 100%;
     overflow: hidden;
+    background-color: #eff7f7;
   }
   main {
     --margin: 1.6rem;
-    --width: calc(27.4rem + (var(--margin) * 2));
+    --width: calc(27.4rem + (var(--margin) * 1));
+    height: calc(100vh - (var(--margin) * 4));
     display: flex;
+    margin: 4rem;
+    border-radius: 10px;
     background-color: hsl(var(--clr-white));
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
     position: relative;
   }
 
   .step-paging-sec {
-    height: calc(100vh - (var(--margin) * 2));
+    height: calc(100vh - (var(--margin) * 8));
     overflow: hidden;
     border-radius: 1rem;
     background-image: url(assets/svg/bg-sidebar-desktop.svg);
@@ -631,8 +637,8 @@ main {
     justify-content: start;
     min-width: var(--width);
     position: absolute;
-    left: var(--margin);
-    top: var(--margin);
+    left: 3%;
+    top: 3rem;
   }
 
   .paging {
